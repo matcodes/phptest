@@ -56,9 +56,9 @@ class UserResource extends \PHPTest\AbstractResource {
         ");
 
         $this->getEntityManager()->insert("users", [
-            "email" => "raj@izap.in",
+            "email" => "jaffy@gmail.com",
             "password" => "password",
-            "name" => 'Raj Malhotra'
+            "name" => 'Jaffy'
         ]);
     }
 
